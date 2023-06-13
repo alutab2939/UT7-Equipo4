@@ -1,4 +1,4 @@
-dn: uid=alberto,ou=usuarios,ou=BioInformatica,ou=picasso,dc=res,dc=local
+dn: uid=alberto,ou=usuarios,ou=GGBioInformatica,ou=picasso,dc=res,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -8,11 +8,11 @@ cn: Alberto Saca
 sn: BioInformatica
 uidNumber: 10100
 gidNumber: 5100
-userPassword: {SHA}hola01/Imo
+userPassword: {SHA}hola01
 loginShell: /bin/bash
 homeDirectory: /home/alberto
 
-dn: uid=marta,ou=usuarios,ou=Asesoria,ou=picasso,dc=res,dc=local
+dn: uid=marta,ou=usuarios,ou=GGAsesoria,ou=picasso,dc=res,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -22,11 +22,11 @@ cn: Marta Car
 sn: Asesoria
 uidNumber: 10101
 gidNumber: 5101
-userPassword: {SHA}hola01/Imo
+userPassword: {SHA}hola01
 loginShell: /bin/bash
 homeDirectory: /home/marta
 
-dn: uid=amelie,ou=usuarios,ou=Soporte,ou=picasso,dc=res,dc=local
+dn: uid=amelie,ou=usuarios,ou=GGSoporte,ou=picasso,dc=res,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -36,11 +36,11 @@ cn: Amelie Tribu
 sn: Soporte Tribu
 uidNumber: 10102
 gidNumber: 5102
-userPassword: {SHA}hola01/Imo
+userPassword: {SHA}hola01
 loginShell: /bin/bash
 homeDirectory: /home/amelie
 
-dn: uid=carlos,ou=usuarios,ou=Administracion,ou=picasso,dc=res,dc=local
+dn: uid=carlos,ou=usuarios,ou=GGAdministracion,ou=picasso,dc=res,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
@@ -50,6 +50,6 @@ cn: Carlos Benito
 sn: Administracion
 uidNumber: 10103
 gidNumber: 5103
-userPassword: {SHA}hola01/Imo
+userPassword: {SHA}hola01
 loginShell: /bin/bash
 homeDirectory: /home/carlos
