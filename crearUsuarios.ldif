@@ -1,0 +1,59 @@
+dn: uid=FANAC,ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: FANAC
+cn: FRANCISCO ANA CLETO
+sn: ANA CLETO
+displayName: ANA CLETO FRANCISCO
+givenName: FRANCISCO
+uidNumber: 10201
+gidNumber: 5201
+loginShell: /bin/bash
+homeDirectory: /home/FANAC
+userPassword: {SSHA}fnvUrAacU+SzF9/m7q3bnt/TCBdD76Ge
+
+dn: uid=MCIDC,ou=Usuarios,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: MCIDC
+cn: MIGUEL CID CABANES
+sn: CID CABANES
+displayName: CID CABANES MIGUEL
+givenName: MIGUEL
+uidNumber: 10202
+gidNumber: 5202
+loginShell: /bin/bash
+homeDirectory: /home/MCIDC
+userPassword: {SSHA}fnvUrAacU+SzF9/m7q3bnt/TCBdD76Ge
+
+dn: uid=LMOLLG,ou=Usuarios,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: LMOLLG
+cn: LAURA MOLL GIL
+sn: MOLL GIL
+displayName: MOLL GIL LAURA
+givenName: LAURA
+uidNumber: 10203
+gidNumber: 5203
+loginShell: /bin/bash
+homeDirectory: /home/LMOLLG
+userPassword: {SSHA}fnvUrAacU+SzF9/m7q3bnt/TCBdD76Ge
+
+dn: uid=PVARGASV,ou=Usuarios,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PVARGASV
+cn: PEPE VARGAS VARGAS
+sn: VARGAS VARGAS
+displayName: VARGAS VARGAS PEPE
+givenName: PEPE
+uidNumber: 10204
+gidNumber: 5204
+loginShell: /bin/bash
+homeDirectory: /home/PVARGASV
+userPassword: {SSHA}fnvUrAacU+SzF9/m7q3bnt/TCBdD76Ge

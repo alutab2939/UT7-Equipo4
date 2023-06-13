@@ -1,0 +1,19 @@
+dn: cn=GGDireccion,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGDireccion
+gidNumber: 5201
+
+dn: cn=GGLogistica,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGRedes
+gidNumber: 5202
+
+dn: cn=GGSeguridadYAdmin,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGLogistica
+gidNumber: 5203
+
+dn: cn=GGInvestigacion,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGInvestigacion
+gidNumber: 5204
