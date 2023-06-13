@@ -1,0 +1,60 @@
+# Crear la unidad organizativa para el subsistema "picasso"
+dn: ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: GGBioInformatica
+
+dn: ou=usuarios,ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=GGAsesoria,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: GGAsesoria
+
+dn: ou=usuarios,ou=GGAsesoria,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGAsesoria,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=GGSoporte,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: GGSoporte
+
+dn: ou=usuarios,ou=GGSoporte,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGSoporte,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=GGAdministracion,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: GGAdministracion
+
+dn: ou=usuarios,ou=GGAdministracion,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGAdministracion,ou=picasso,dc=res,dc=local
+changetype: add
+objectClass: organizationalUnit
+ou: grupos

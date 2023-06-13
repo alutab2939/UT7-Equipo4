@@ -1,0 +1,59 @@
+dn: ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Marenostrum
+
+
+
+dn: ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Direccion
+
+dn: ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: ou=Grupos,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+
+
+dn: ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Logistica
+
+dn: ou=Usuarios,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: ou=Grupos,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+
+
+dn: ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: SeguridadYAdmin
+
+dn: ou=Usuarios,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: ou=Grupos,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+
+
+dn: ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Investigacion
+
+dn: ou=Usuarios,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: ou=Grupos,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos

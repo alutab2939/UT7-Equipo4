@@ -1,0 +1,20 @@
+# Crear grupos globales para cada departamento
+dn: cn=BioInformatica,ou=grupos,ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: BioInformatica
+gidNumber: 5100
+
+dn: cn=Asesoria,ou=grupos,ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Asesoria
+gidNumber: 5101
+
+dn: cn=Soporte,ou=grupos,ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Soporte
+gidNumber: 5102
+
+dn: cn=Administracion,ou=grupos,ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Administracion
+gidNumber: 5103

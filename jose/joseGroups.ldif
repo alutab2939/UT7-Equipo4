@@ -1,0 +1,22 @@
+# Crear grupos globales para cada departamento
+dn: cn=ComiteAcceso,ou=grupos,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: ComiteAcceso
+gidNumber: 5400
+
+dn: cn=Visitas,ou=grupos,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: Visitas
+gidNumber: 5401
+
+
+dn: cn=ProcesosEvaluacion,ou=grupos,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: ProcesosEvaluacion
+gidNumber: 5402
+
+
+dn: cn=Administracion,ou=grupos,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: Administracion
+gidNumber: 5403

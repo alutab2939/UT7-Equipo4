@@ -1,0 +1,15 @@
+dn: uid=FANAC,ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: FANAC
+cn: FRANCISCO ANA CLETO
+sn: ANA CLETO
+displayName: ANA CLETO FRANCISCO
+givenName: FRANCISCO
+uidNumber: 10201
+gidNumber: 5201
+loginShell: /bin/bash
+homeDirectory: /home/FANAC
+userPassword: {SSHA}fnvUrAacU+SzF9/m7q3bnt/TCBdD76Ge
+

@@ -1,0 +1,19 @@
+dn: ou=BioInformatica,ou=picasso,dc=res,dc=local
+changetype: modify
+replace: ou
+ou: GGBioinformatica
+
+dn: ou=Asesoria,ou=picasso,dc=res,dc=local
+changetype: modify
+replace: ou
+ou: GGAsesoria
+
+dn: ou=Soporte,ou=picasso,dc=res,dc=local
+changetype: modify
+replace: ou
+ou: GGSoporte
+
+dn: ou=Administracion,ou=picasso,dc=res,dc=local
+changetype: modify
+replace: ou
+ou: GGAdministracion

@@ -1,0 +1,53 @@
+# Crear la unidad organizativa para el subsistema "tirant"
+dn: ou=tirant,dc=res,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: tirant
+
+dn: ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: ComiteAcceso
+
+dn: ou=usuarios,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Visitas
+
+dn: ou=usuarios,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: ProcesosEvaluacion
+
+dn: ou=usuarios,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Administracion
+
+dn: ou=usuarios,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
