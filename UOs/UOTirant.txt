@@ -1,0 +1,113 @@
+dn: ou=tirant,dc=res,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: tirant
+
+dn: ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Visitas
+
+dn: ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: ComiteAcceso
+
+dn: ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Administracion
+
+dn: ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: ProcesosEvaluacion
+
+dn: ou=grupos,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=Visitas,ou=grupos,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: Visitas
+gidNumber: 5401
+
+dn: uid=judas,ou=usuarios,ou=Visitas,ou=tirant,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: judas
+givenName: Judas
+cn: Judas Visitas
+sn: Visitas
+uidNumber: 10401
+gidNumber: 5401
+loginShell: /bin/bash
+homeDirectory: /home/judas
+
+dn: ou=grupos,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=ComiteAcceso,ou=grupos,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: ComiteAcceso
+gidNumber: 5400
+
+dn: uid=jose,ou=usuarios,ou=ComiteAcceso,ou=tirant,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: jose
+givenName: Jose
+cn: Jose ComiteAcceso
+sn: ComiteAcceso
+uidNumber: 10100
+gidNumber: 5400
+loginShell: /bin/bash
+homeDirectory: /home/jose
+
+dn: ou=grupos,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=Administracion,ou=grupos,ou=Administracion,ou=tirant,dc=res,dc=local
+objectClass: posixGroup
+cn: Administracion
+gidNumber: 5403
+
+dn: ou=grupos,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=ProcesosEvaluacion,ou=grupos,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=
+ local
+objectClass: posixGroup
+cn: ProcesosEvaluacion
+gidNumber: 5402
+
+dn: uid=torivio,ou=usuarios,ou=ProcesosEvaluacion,ou=tirant,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: torivio
+givenName: Torivio
+cn: Torivio ProcesosEvaluacion
+sn: ProcesosEvaluacion
+uidNumber: 10402
+gidNumber: 5402
+loginShell: /bin/bash
+homeDirectory: /home/torivio
+

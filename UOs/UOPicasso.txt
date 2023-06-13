@@ -1,0 +1,177 @@
+dn: ou=picasso,dc=res,dc=local
+objectClass: top
+objectClass: organizationalUnit
+ou: picasso
+
+dn: ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Soporte
+
+dn: ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Asesoria
+
+dn: ou=GGSoporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: GGSoporte
+
+dn: ou=GGAsesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: GGAsesoria
+
+dn: ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Administracion
+
+dn: ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: BioInformatica
+
+dn: ou=GGAdministracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: GGAdministracion
+
+dn: ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: GGBioInformatica
+
+dn: ou=grupos,ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=Soporte,ou=grupos,ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Soporte
+cn: GGSoporte
+gidNumber: 5102
+
+dn: uid=amelie,ou=usuarios,ou=Soporte,ou=picasso,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: amelie
+givenName: Amelie
+cn: Amelie Tribu
+sn: Soporte
+uidNumber: 10102
+gidNumber: 5102
+loginShell: /bin/bash
+homeDirectory: /home/amelie
+
+dn: ou=grupos,ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=Asesoria,ou=grupos,ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Asesoria
+cn: GGAsesoria
+gidNumber: 5101
+
+dn: uid=marta,ou=usuarios,ou=Asesoria,ou=picasso,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: marta
+givenName: Marta
+cn: Marta Car
+sn: Asesoria
+uidNumber: 10101
+gidNumber: 5101
+loginShell: /bin/bash
+homeDirectory: /home/marta
+
+dn: ou=grupos,ou=GGSoporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=GGSoporte,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGAsesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=GGAsesoria,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=Administracion,ou=grupos,ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: Administracion
+cn: GGAdministracion
+gidNumber: 5103
+
+dn: uid=carlos,ou=usuarios,ou=Administracion,ou=picasso,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: carlos
+givenName: Carlos
+cn: Carlos Benito
+sn: Administracion
+uidNumber: 10103
+gidNumber: 5103
+loginShell: /bin/bash
+homeDirectory: /home/carlos
+
+dn: ou=grupos,ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: cn=BioInformatica,ou=grupos,ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: posixGroup
+cn: BioInformatica
+cn: GGBioInformatica
+gidNumber: 5100
+
+dn: uid=alberto,ou=usuarios,ou=BioInformatica,ou=picasso,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: alberto
+givenName: Alberto
+cn: Alberto Saca
+sn: BioInformatica
+uidNumber: 10100
+gidNumber: 5100
+loginShell: /bin/bash
+homeDirectory: /home/alberto
+
+dn: ou=grupos,ou=GGAdministracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=GGAdministracion,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+
+dn: ou=grupos,ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: grupos
+
+dn: ou=usuarios,ou=GGBioInformatica,ou=picasso,dc=res,dc=local
+objectClass: organizationalUnit
+ou: usuarios
+

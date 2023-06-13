@@ -1,0 +1,129 @@
+dn: ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Altamira
+
+dn: ou=depDatos,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: depDatos
+
+dn: ou=depSoporte,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: depSoporte
+
+dn: ou=depAdminSis,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: depAdminSis
+
+dn: ou=depBioInformatica,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: depBioInformatica
+
+dn: ou=Grupos,ou=depDatos,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=depDatos,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGdepDatos,ou=Grupos,ou=depDatos,ou=Altamira,dc=res,dc=local
+objectClass: posixGroup
+cn: GGdepDatos
+gidNumber: 5302
+
+dn: uid=PRAMIREST,ou=Usuarios,ou=depDatos,ou=Altamira,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PRAMIREST
+sn: RAMIRES TORRES
+givenName: PEDRO
+cn: PEDRO RAMIRES TORRES
+displayName: RAMIRES TORRES PEDRO
+uidNumber: 10302
+gidNumber: 5302
+loginShell: /bin/bash
+homeDirectory: /home/PRAMIREST
+
+dn: ou=Grupos,ou=depSoporte,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=depSoporte,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGdepSoporte,ou=Grupos,ou=depSoporte,ou=Altamira,dc=res,dc=local
+objectClass: posixGroup
+cn: GGdepSoporte
+gidNumber: 5301
+
+dn: uid=LDELTOROG,ou=Usuarios,ou=depSoporte,ou=Altamira,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: LDELTOROG
+sn: DEL TORO GIL
+givenName: LUIS
+cn: LUIS DEL TORO GIL
+displayName: DEL TORO GIL LUIS
+uidNumber: 10301
+gidNumber: 5301
+loginShell: /bin/bash
+homeDirectory: /home/LDELTOROG
+
+dn: ou=Grupos,ou=depAdminSis,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: uid=ABASEN,ou=depAdminSis,ou=Altamira,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: ABASEN
+sn: BASE NOVA
+givenName: ANDRES
+cn: ANDRES BASE NOVA
+displayName: BASE NOVA ANDRES
+uidNumber: 10304
+gidNumber: 5304
+loginShell: /bin/bash
+homeDirectory: /home/ABASEN
+
+dn: ou=Usuarios,ou=depAdminSis,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGdepAdminSis,ou=Grupos,ou=depAdminSis,ou=Altamira,dc=res,dc=local
+objectClass: posixGroup
+cn: GGdepAdminSis
+gidNumber: 5304
+
+dn: ou=Grupos,ou=depBioInformatica,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=depBioInformatica,ou=Altamira,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGdepBioInformatica,ou=Grupos,ou=depBioInformatica,ou=Altamira,dc=res,d
+ c=local
+objectClass: posixGroup
+cn: GGdepBioInformatica
+gidNumber: 5303
+
+dn: uid=LVILAN,ou=Usuarios,ou=depBioInformatica,ou=Altamira,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: LVILAN
+sn: VILA NOVA
+givenName: LUCIA
+cn: LUCIA VILA NOVA
+displayName: VILA NOVA LUCIA
+uidNumber: 10303
+gidNumber: 5303
+loginShell: /bin/bash
+homeDirectory: /home/LVILAN
+

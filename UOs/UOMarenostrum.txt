@@ -1,0 +1,130 @@
+dn: ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Marenostrum
+
+dn: ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Direccion
+
+dn: ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Logistica
+
+dn: ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Investigacion
+
+dn: ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: SeguridadYAdmin
+
+dn: ou=Grupos,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGDireccion,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGDireccion
+gidNumber: 5201
+
+dn: uid=FANAC,ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: FANAC
+cn: FRANCISCO ANA CLETO
+sn: ANA CLETO
+displayName: ANA CLETO FRANCISCO
+givenName: FRANCISCO
+uidNumber: 10201
+gidNumber: 5201
+loginShell: /bin/bash
+homeDirectory: /home/FANAC
+
+dn: ou=Grupos,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGLogistica,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGRedes
+cn: GGLogistica
+gidNumber: 5202
+
+dn: uid=MCIDC,ou=Usuarios,ou=Logistica,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: MCIDC
+cn: MIGUEL CID CABANES
+sn: CID CABANES
+displayName: CID CABANES MIGUEL
+givenName: MIGUEL
+uidNumber: 10202
+gidNumber: 5202
+loginShell: /bin/bash
+homeDirectory: /home/MCIDC
+
+dn: ou=Grupos,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGInvestigacion,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGInvestigacion
+gidNumber: 5204
+
+dn: uid=PVARGASV,ou=Usuarios,ou=Investigacion,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: PVARGASV
+cn: PEPE VARGAS VARGAS
+sn: VARGAS VARGAS
+displayName: VARGAS VARGAS PEPE
+givenName: PEPE
+uidNumber: 10204
+gidNumber: 5204
+loginShell: /bin/bash
+homeDirectory: /home/PVARGASV
+
+dn: ou=Grupos,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Grupos
+
+dn: ou=Usuarios,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: organizationalUnit
+ou: Usuarios
+
+dn: cn=GGSeguridadYAdmin,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: posixGroup
+cn: GGLogistica
+cn: GGSeguridadYAdmin
+gidNumber: 5203
+
+dn: uid=LMOLLG,ou=Usuarios,ou=SeguridadYAdmin,ou=Marenostrum,dc=res,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: LMOLLG
+cn: LAURA MOLL GIL
+sn: MOLL GIL
+displayName: MOLL GIL LAURA
+givenName: LAURA
+uidNumber: 10203
+gidNumber: 5203
+loginShell: /bin/bash
+homeDirectory: /home/LMOLLG
+
