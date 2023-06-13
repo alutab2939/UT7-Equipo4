@@ -1,6 +1,0 @@
-
-dn: cn=GGRadius,ou=Grupos,dc=res,dc=local
-objectClass: groupOfNames
-objectClass: top
-cn: GGRadius
-member: uid=FANAC,ou=Usuarios,ou=Direccion,ou=Marenostrum,dc=res,dc=local
